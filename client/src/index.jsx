@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import EventDetails from './pages/EventDetails';
+import './index.css';
+// TODO: import React router
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>Chief Ladiga</h1>
+    <EventDetails />
   </React.StrictMode>
 );
