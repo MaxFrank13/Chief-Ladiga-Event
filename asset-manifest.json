@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Chief-Ladiga-Event/static/css/main.bd82bd5c.css",
+    "main.js": "/Chief-Ladiga-Event/static/js/main.a5ee3e41.js",
+    "index.html": "/Chief-Ladiga-Event/index.html",
+    "main.bd82bd5c.css.map": "/Chief-Ladiga-Event/static/css/main.bd82bd5c.css.map",
+    "main.a5ee3e41.js.map": "/Chief-Ladiga-Event/static/js/main.a5ee3e41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd82bd5c.css",
+    "static/js/main.a5ee3e41.js"
+  ]
+}
