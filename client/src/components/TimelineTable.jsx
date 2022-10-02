@@ -12,7 +12,7 @@ import React from 'react';
 
 export default function TimelineTable({ data }) {
   return (
-    <section className='bg-green-500 rounded-tr-md rounded-b-md'>
+    <section className='bg-green-400 rounded-tr-md sm:rounded-b-md'>
       <header className='flex items-end px-4 py-2 shadow-lg'>
         <div className='flex flex-col items-center font-bold w-[112px]'>
           <p>
@@ -35,7 +35,7 @@ export default function TimelineTable({ data }) {
             <p className='min-w-[112px] font-bold flex justify-center items-center'>
               {item.header}
             </p>
-            <div className={`flex flex-col ${item.header === 'Lodging' && 'gap-2'}`}>
+            <div className={`flex flex-col ${item.header === 'Lodging' ? 'gap-2' : 'gap-2'}`}>
               {item.todos.map((todo, idx) => (
                 <p
                   key={idx}
@@ -43,6 +43,11 @@ export default function TimelineTable({ data }) {
                   {todo}
                 </p>
               ))}
+              {item.alert && (
+                <p className='w-3/4 mx-auto bg-red-50  rounded text-center px-4 font-bold'>
+                  {item.alert}
+                </p>
+              )}
             </div>
           </div>
           {item.subheaders.length > 0 && (
@@ -54,7 +59,7 @@ export default function TimelineTable({ data }) {
                 <p className='flex flex-col'>
                   {subheader.task}
                   {subheader.note && (
-                    <span className='bg-red-50 p-2'>
+                    <span className='w-3/4 mx-auto bg-red-50 p-2 flex justify-center items-center rounded'>
                       {subheader.note}
                     </span>
                   )}
@@ -64,7 +69,7 @@ export default function TimelineTable({ data }) {
           )}
         </div>
       ))}
-      <div className='h-6 bg-green-900 rounded-b-md'>
+      <div className='h-4 bg-green-600 sm:rounded-b-md'>
       </div>
     </section>
   )

@@ -88,29 +88,29 @@ const saturdayTimeline = {
         header: '9:00am',
         subheaders: [
           {
-            text: 'mile 52',
-            task: 'Drink at Cedartown Depot, ~14 miles from the START',
+            text: 'mile 14',
+            task: 'Drink at Cedartown Depot, Mile Marker 52',
           },
           {
-            text: 'mile 61',
-            task: 'Cross into Alabama. Timezone change to Central Standard Time (CST, 1 hour BEHIND) and the MILE MARKERS WILL RESET to 0',
+            text: 'mile 24',
+            task: 'Cross into Alabama Mile Marker 62. Timezone change to Central Standard Time (CST, 1 hour BEHIND) and the MILE MARKERS WILL RESET to 0',
             note: 'CAUTION: this is NOT a pitstop. This is actually the most remote section of the trail. Be safe!',
           },
           {
-            text: 'mile 13',
-            task: 'Drink & Snack at Eubanks Welcome Center, ~37 miles from the START',
+            text: 'mile 37',
+            task: 'Drink & Snack at Eubanks Welcome Center, Mile Marker 13.6',
           },
         ],
         todos: [
-          'START at Mile Marker 38 in Rockmart, GA',
+          'START at Mile Marker 38.76 in Rockmart, GA',
         ],
       },
       {
         header: '4:00pm CST',
         subheaders: [],
         todos: [
-          'FINISH (5pm EST, time changes at Alabama border)',
-          'Drink & Snack (Mile marker 33)',
+          'FINISH (5pm EST)',
+          'Drink & Snack, Mile marker 32.5',
         ],
       },
       {
@@ -146,41 +146,41 @@ const sundayTimeline ={
         header: '6:30am CST',
         subheaders: [
           {
-            text: 'mile 13',
-            task: 'Drink at Eubanks Welcome Center, ~20 miles from START',
+            text: 'mile 20',
+            task: 'Drink at Eubanks Welcome Center, Mile Marker 13',
           },
           {
-            text: 'mile 61',
-            task: 'Cross into Georgia. Timezone change to Eastern Standard Time (EST, 1 hour AHEAD) and the MILE MARKERS WILL COUNT DOWN from 61.',
+            text: 'mile 33',
+            task: 'Cross into Georgia. Timezone change to Eastern Standard Time (EST, 1 hour AHEAD) and the MILE MARKERS WILL COUNT DOWN from 62.',
             note: 'CAUTION: this is NOT a pitstop. This is actually the most remote section of the trail. Be safe!',
           },
           {
-            text: 'mile 52',
-            task: 'Drink at Cedartown Depot, ~43 miles from START',
+            text: 'mile 43',
+            task: 'Drink at Cedartown Depot, Mile Marker 52',
           },
           {
-            text: 'mile 38',
-            task: 'Drink & Snack at Rockmart, ~56 miles from START',
+            text: 'mile 56',
+            task: 'Drink & Snack at Rockmart, Mile Marker 38.76',
           },
           {
-            text: 'mile 20',
-            task: 'Drink at Tara Drummond, ~74 miles from START',
+            text: 'mile 74',
+            task: 'Drink at Tara Drummond, Mile Marker 20.23',
           },
         ],
         todos: [
-          'START at Mile marker 33',
+          'START at Mile marker 32.5 (counting down)',
         ],
       },
       {
         header: '5:30pm EST',
         subheaders: [],
         todos: [
-          'CUTOFF at Mile marker 20 (for rider safety) - Tara Drummond',
-          'You MUST be at mile marker 20 (the last feed/ check-in station) by 5:30pm to be allowed to continue.',
+          'CUTOFF at Mile Marker 20.23 (for rider safety) - Tara Drummond',
+          'You MUST be at mile marker 20.23 (the last feed/ check-in station) by 5:30pm to be allowed to continue.',
           'If you don\'t reach this point by 5:30pm you\'ll be pulled from the event & driven to the finish line for your own safety.',
           'This pace is an average of 7.5mph or 8 minutes per mile.',
-          '*By registering you agree to this and understand it\'s not a personal option.*',
         ],
+        alert: 'By registering you agree to this and understand it\'s not a personal option.',
       },
       {
         header: 'Last rider',
