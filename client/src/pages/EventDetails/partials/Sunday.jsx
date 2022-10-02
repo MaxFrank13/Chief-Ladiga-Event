@@ -1,7 +1,9 @@
 import React from 'react';
+import TimelineTable from '../../../components/TimelineTable';
+import { sundayTimeline } from '../data/timelineData';
 
 export default function Sunday() {
   return (
-    <h3 className='text-green-900'>Sunday</h3>
+    <TimelineTable data={sundayTimeline}/>
   )
 }

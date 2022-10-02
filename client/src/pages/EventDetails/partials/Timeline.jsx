@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Friday from "./partials/Friday";
-import Saturday from "./partials/Saturday";
-import Sunday from "./partials/Sunday";
-import { FRIDAY, SATURDAY, SUNDAY } from "./data/enum";
+import Friday from "./Friday";
+import Saturday from "./Saturday";
+import Sunday from "./Sunday";
+import { FRIDAY, SATURDAY, SUNDAY } from "../data/enum";
 
 export default function Timeline() {
   const [selectedDay, setSelectedDay] = useState(FRIDAY);
@@ -20,12 +20,12 @@ export default function Timeline() {
   };
 
   return (
-    <section>
+    <section className="w-3/4 mx-auto mb-8">
       <div className="flex gap-1">
         {[FRIDAY, SATURDAY, SUNDAY].map((day, idx) => (
           <button
             key={idx}
-            className="px-2 py-1 bg-green-200"
+            className="px-4 py-1 bg-green-200 text-xl rounded-t-md font-bold"
             onClick={() => setSelectedDay(day)}
           >
             {day}

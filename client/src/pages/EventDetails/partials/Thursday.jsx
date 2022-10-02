@@ -18,9 +18,12 @@ export default function Thursday() {
             We can book your hotel for you or you can book yourself (details in Registration). It is recommended that you stay at The La Quinta Inn & Suites Atlanta Paces Ferry. Shuttle to & from the event will be provided from the hotel. Grocery stores, restaurants & more are within walking/skating distance.
           </p>
         </div>
-        <div className='p-4'>
-          <p className='text-center font-bold text-l'>
-            ***Mandatory for all riders.  If you're not arriving in Atlanta in time to attend  this meeting you must communicate to Carlos Montalvo BEFORE Thursday. *** 7:30pm - Pre-ride meeting - Location TBD
+        <div className='p-4 font-bold text-center'>
+          <p>
+            ***Mandatory for all riders.  If you're not arriving in Atlanta in time to attend  this meeting you must communicate to Carlos Montalvo BEFORE Thursday. ***
+          </p>
+          <p className='text-lg'>
+            7:30pm - Pre-ride meeting - Location TBD
           </p>
         </div>
       </section>

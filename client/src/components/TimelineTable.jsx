@@ -12,44 +12,60 @@ import React from 'react';
 
 export default function TimelineTable({ data }) {
   return (
-    <section className='bg-grey-100'>
-      <header className='flex items-end'>
-        <div className='flex flex-col items-center px-4'>
-          <span>
+    <section className='bg-green-500 rounded-tr-md rounded-b-md'>
+      <header className='flex items-end px-4 py-2 shadow-lg'>
+        <div className='flex flex-col items-center font-bold w-[112px]'>
+          <p>
             Day {data.thisDay.number}
-          </span>
-          <span>
-          {data.thisDay.miles} miles
-          </span>
+          </p>
+          <p>
+            {data.thisDay.miles} miles
+          </p>
         </div>
-        <div className='px-4'>
-          <span>What to do</span>
+        <div>
+          <p className='text-lg font-bold px-4'>What to do</p>
         </div>
       </header>
       {data.timeline.map((item, idx) => (
-        <div key={idx}>
-          <div className='flex'>
-            <span className='px-4 min-w-[112px]'>
+        <div 
+          key={idx} 
+          className={`${item.subheaders.length > 0 ? 'bg-yellow-50 font-bold' : 'bg-green-50'} shadow-inner p-4`}
+          >
+          <div className='flex py-2'>
+            <p className='min-w-[112px] font-bold flex justify-center items-center'>
               {item.header}
-            </span>
-            <span>              
-              {item.todo}
-            </span>
+            </p>
+            <div className={`flex flex-col ${item.header === 'Lodging' && 'gap-2'}`}>
+              {item.todos.map((todo, idx) => (
+                <p
+                  key={idx}
+                >
+                  {todo}
+                </p>
+              ))}
+            </div>
           </div>
           {item.subheaders.length > 0 && (
-            item.subheaders.map((item, idx) => (
-              <div key={idx} className='flex'>
-                <span className='px-4 min-w-[112px]'>
-                  {item.text}
-                </span>
-                <span>
-                  {item.task}
-                </span>
+            item.subheaders.map((subheader, idx) => (
+              <div key={idx} className='flex items-start py-2'>
+                <p className='min-w-[112px] flex justify-center items-center'>
+                  {subheader.text}
+                </p>
+                <p className='flex flex-col'>
+                  {subheader.task}
+                  {subheader.note && (
+                    <span className='bg-red-50 p-2'>
+                      {subheader.note}
+                    </span>
+                  )}
+                </p>
               </div>
             ))
           )}
         </div>
       ))}
+      <div className='h-6 bg-green-900 rounded-b-md'>
+      </div>
     </section>
   )
 }
