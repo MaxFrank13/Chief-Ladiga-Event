@@ -1,16 +1,12 @@
 import React from 'react';
-import Thursday from './components/Thursday';
-import Friday from './components/Friday';
-import Saturday from './components/Saturday';
-import Sunday from './components/Sunday';
+import Thursday from './partials/Thursday';
+import Timeline from './Timeline';
 
 export default function EventDetails() {
   return (
-    <>
+    <section className='bg-grey-50'>
       <Thursday />
-      <Friday />
-      <Saturday />
-      <Sunday />
-    </>
+      <Timeline />
+    </section>
   )
 }
