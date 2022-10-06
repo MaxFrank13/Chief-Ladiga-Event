@@ -8,14 +8,15 @@ export default function Timeline() {
   const [selectedDay, setSelectedDay] = useState(FRIDAY);
 
   const renderSelectedDay = () => {
-    if (selectedDay === FRIDAY) {
-      return <Friday />
-    }
-    if (selectedDay === SATURDAY) {
-      return <Saturday />
-    }
-    if (selectedDay === SUNDAY) {
-      return <Sunday />
+    switch(selectedDay){
+      case FRIDAY:
+        return <Friday />;
+      case SATURDAY:
+        return <Saturday />;
+      case SUNDAY:
+        return <Sunday />;
+      default:
+        return <p>no day selected</p>
     }
   };
 
@@ -25,7 +26,7 @@ export default function Timeline() {
         {[FRIDAY, SATURDAY, SUNDAY].map((day, idx) => (
           <button
             key={idx}
-            className='px-4 py-1 bg-green-200 text-xl rounded-t-md font-bold hover:bg-green-700 hover:text-grey-50 hover:shadow-lg transition-all'
+            className={`px-4 py-1 text-xl rounded-t-md font-bold hover:bg-green-300 hover:text-grey-900 hover:shadow-lg transition-all ${selectedDay === day ? 'bg-green-300' : 'bg-green-700 text-grey-50'}`}
             onClick={() => setSelectedDay(day)}
           >
             {day}

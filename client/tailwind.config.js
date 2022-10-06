@@ -54,7 +54,14 @@ module.exports = {
         900: '#610316',
       }
     },
-    extend: {},
+    extend: {
+      borderRadius: {
+        100: '100%',
+      },
+      boxShadow: {
+        'topDown': 'inset #000000 0px 1px 6px 0px',
+      }
+    },
   },
   plugins: [],
 }
