@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Chief-Ladiga-Event/static/css/main.bd82bd5c.css",
-    "main.js": "/Chief-Ladiga-Event/static/js/main.a5ee3e41.js",
+    "main.css": "/Chief-Ladiga-Event/static/css/main.3e12d997.css",
+    "main.js": "/Chief-Ladiga-Event/static/js/main.53e3fcc1.js",
+    "static/media/chief-logo.png": "/Chief-Ladiga-Event/static/media/chief-logo.fdd89cc3b8df011d06dd.png",
     "index.html": "/Chief-Ladiga-Event/index.html",
-    "main.bd82bd5c.css.map": "/Chief-Ladiga-Event/static/css/main.bd82bd5c.css.map",
-    "main.a5ee3e41.js.map": "/Chief-Ladiga-Event/static/js/main.a5ee3e41.js.map"
+    "main.3e12d997.css.map": "/Chief-Ladiga-Event/static/css/main.3e12d997.css.map",
+    "main.53e3fcc1.js.map": "/Chief-Ladiga-Event/static/js/main.53e3fcc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd82bd5c.css",
-    "static/js/main.a5ee3e41.js"
+    "static/css/main.3e12d997.css",
+    "static/js/main.53e3fcc1.js"
   ]
 }
