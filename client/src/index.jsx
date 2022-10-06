@@ -13,15 +13,15 @@ import './index.css';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Root />,
-  },
-  {
-    path: "/details",
+    path: "/Chief-Ladiga-Event",
     element: <EventDetails />,
   },
   {
-    path: "/register",
+    path: "/Chief-Ladiga-Event/details",
+    element: <EventDetails />,
+  },
+  {
+    path: "/Chief-Ladiga-Event/register",
     element: <Register />,
   },
 ]);
