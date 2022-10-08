@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom';
 
 import './index.css';
+import Footer from './components/Footer';
 
 const router = createBrowserRouter([
   {
@@ -17,12 +18,16 @@ const router = createBrowserRouter([
     element: <EventDetails />,
   },
   {
-    path: "/Chief-Ladiga-Event/details",
+    path: "/details",
     element: <EventDetails />,
   },
   {
-    path: "/Chief-Ladiga-Event/register",
+    path: "/register",
     element: <Register />,
+  },
+  {
+    path: "/",
+    element: <Root />,
   },
 ]);
 
@@ -31,8 +36,6 @@ root.render(
   <React.StrictMode>
     <Header />
     <RouterProvider router={router} />
-    <footer className='h-24 flex justify-center items-center bg-green-900'>
-      FOOTER
-    </footer>
+    <Footer />
   </React.StrictMode>
 );

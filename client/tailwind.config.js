@@ -60,6 +60,11 @@ module.exports = {
       },
       boxShadow: {
         'topDown': 'inset #000000 0px 1px 6px 0px',
+        'both': 'inset 0px 2px 4px 0px rgb(0 0 0 / 0.05), 1px 1px 3px 1px rgb(0 0 0 / 0.05)',
+        'pressed': 'inset 0px 0px 6px -4px',
+      },
+      screens: {
+        'xs': '480px',
       }
     },
   },

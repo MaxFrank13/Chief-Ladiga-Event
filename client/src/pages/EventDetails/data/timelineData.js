@@ -9,7 +9,7 @@ const fridayTimeline = {
         header: '8:00am',
         subheaders: [],
         todos: [
-          'Shuttle LEAVES Hotel to',
+          'Shuttle departs Hotel to',
           'Silver Comet Parking Lot - 4625 Camp Highland Rd, Smyrna, GA 30082',
         ],
       },
@@ -38,7 +38,7 @@ const fridayTimeline = {
           },
         ],
         todos: [
-          'START at Mile Marker 0 at Mavell Road Trail Head',
+          'START at mile marker 0 at Mavell Road Trail Head',
         ],
       },
       {
@@ -61,7 +61,7 @@ const fridayTimeline = {
         subheaders: [],
         todos: [
           'There are two lodging options in Rockmart, GA (Shuttles will be provided to both options):',
-          'Option 1: Hotel 105 GTM Pkwy, Rockmart, GA 30153 Rockmart, GA 30153 1-770-684-9955',
+          'Option 1: Western Inn 105 GTM Pkwy, Rockmart, GA 30153',
           'Option 2: Free Accommodations offered by the City of Rockmart. A large room at the community center. Showers, bathrooms, air conditioning available. Bring a sleeping bag or air mattress',
         ],
       },
@@ -79,7 +79,7 @@ const saturdayTimeline = {
         header: '8:00am',
         subheaders: [],
         todos: [
-          'Shuttle LEAVES Hotel to Rockmart Trail Head',
+          'Shuttle departs Hotel to Rockmart Trail Head',
           'Personal Food and Drinks can be shuttled to aid stations along the way',
           'Gear will be transported to Anniston',
         ],
@@ -89,20 +89,20 @@ const saturdayTimeline = {
         subheaders: [
           {
             text: 'mile 14',
-            task: 'Drink at Cedartown Depot, Mile Marker 52',
+            task: 'Drink at Cedartown Depot, mile marker 52',
           },
           {
             text: 'mile 24',
-            task: 'Cross into Alabama Mile Marker 62. Timezone change to Central Standard Time (CST, 1 hour BEHIND) and the MILE MARKERS WILL RESET to 0',
+            task: 'Cross into Alabama at mile marker 62. Timezone change to Central Standard Time (CST, 1 hour BEHIND) and the mile markers will reset to 0',
             note: 'CAUTION: this is NOT a pitstop. This is actually the most remote section of the trail. Be safe!',
           },
           {
             text: 'mile 37',
-            task: 'Drink & Snack at Eubanks Welcome Center, Mile Marker 13.6',
+            task: 'Drink & snack at Eubanks Welcome Center, mile marker 13.6',
           },
         ],
         todos: [
-          'START at Mile Marker 38.76 in Rockmart, GA',
+          'START at mile marker 38.76 in Rockmart, GA',
         ],
       },
       {
@@ -110,7 +110,7 @@ const saturdayTimeline = {
         subheaders: [],
         todos: [
           'FINISH (5pm EST)',
-          'Drink & Snack, Mile marker 32.5',
+          'Drink & Snack, mile marker 32.5',
         ],
       },
       {
@@ -118,7 +118,7 @@ const saturdayTimeline = {
         subheaders: [],
         todos: [
           'Hotel stay at in Oxford. Again a shuttle will take you from the trail head to the hotel.',
-          'Econo Lodge 25 Elm St, Oxford, AL 36203 1-256-770-4212',
+          'Econo Lodge 25 Elm St, Oxford, AL 36203',
           'Other hotels are available in the area and can be purchased on your own. Just be sure to reflect this on your registration page.',
           'Note that transportation will only be provided to and from the main hotel.',
         ],
@@ -137,8 +137,8 @@ const sundayTimeline ={
         header: '5:30am CST',
         subheaders: [],
         todos: [
-          '(6:30am EST) - Shuttle LEAVES Hotel',
-          'Personal Food and Drinks can be shuttled to aid stations along the way',
+          'Shuttle departs Hotel (6:30am EST)',
+          'Personal food and drinks can be shuttled to aid stations along the way',
           'Gear will be transported to Smyrna',
         ],
       },
@@ -147,47 +147,47 @@ const sundayTimeline ={
         subheaders: [
           {
             text: 'mile 20',
-            task: 'Drink at Eubanks Welcome Center, Mile Marker 13',
+            task: 'Drink at Eubanks Welcome Center, mile marker 13',
           },
           {
             text: 'mile 33',
-            task: 'Cross into Georgia. Timezone change to Eastern Standard Time (EST, 1 hour AHEAD) and the MILE MARKERS WILL COUNT DOWN from 62.',
+            task: 'Cross into Georgia. Timezone change to Eastern Standard Time (EST, 1 hour AHEAD) and the mile markers will count down from 62.',
             note: 'CAUTION: this is NOT a pitstop. This is actually the most remote section of the trail. Be safe!',
           },
           {
             text: 'mile 43',
-            task: 'Drink at Cedartown Depot, Mile Marker 52',
+            task: 'Drink at Cedartown Depot, mile marker 52',
           },
           {
             text: 'mile 56',
-            task: 'Drink & Snack at Rockmart, Mile Marker 38.76',
+            task: 'Drink & snack at Rockmart, mile marker 38.76',
           },
           {
             text: 'mile 74',
-            task: 'Drink at Tara Drummond, Mile Marker 20.23',
+            task: 'Drink at Tara Drummond Trailhead, mile marker 20.23',
           },
         ],
         todos: [
-          'START at Mile marker 32.5 (counting down)',
+          'START at mile marker 32.5 (counting down)',
         ],
       },
       {
         header: '5:30pm EST',
         subheaders: [],
         todos: [
-          'CUTOFF at Mile Marker 20.23 (for rider safety) - Tara Drummond',
+          'CUTOFF at mile marker 20.23 (for rider safety) - Tara Drummond Trailhead',
           'You MUST be at mile marker 20.23 (the last feed/ check-in station) by 5:30pm to be allowed to continue.',
           'If you don\'t reach this point by 5:30pm you\'ll be pulled from the event & driven to the finish line for your own safety.',
           'This pace is an average of 7.5mph or 8 minutes per mile.',
         ],
-        alert: 'By registering you agree to this and understand it\'s not a personal option.',
+        alert: 'By registering you have agreed to this and understand it\'s not a personal option.',
       },
       {
         header: 'Last rider',
         subheaders: [],
         todos: [
-          'FINISH - Snack at Finish Line & Dinner at Hotel',
-          'Recommend staying Sunday night at La Quinta (or other TBD) as well.',
+          'FINISH - Snack at finish line & dinner at La Quinta hotel',
+
         ],
       },
       {
@@ -201,7 +201,7 @@ const sundayTimeline ={
         header: 'Lodging',
         subheaders: [],
         todos: [
-          'Same as Thursday.'
+          'It is recommended to stay at La Quinta on Sunday night.',
         ],
       },
     ],
