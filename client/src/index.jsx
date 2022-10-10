@@ -1,21 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './components/Header';
 import Root from './pages/Root';
 import EventDetails from './pages/EventDetails';
 import Register from './pages/Register';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider
 } from 'react-router-dom';
 
 import './index.css';
-import Footer from './components/Footer';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/Chief-Ladiga-Event",
-    element: <EventDetails />,
+    path: "/",
+    element: <Root />,
   },
   {
     path: "/details",
@@ -25,17 +23,11 @@ const router = createBrowserRouter([
     path: "/register",
     element: <Register />,
   },
-  {
-    path: "/",
-    element: <Root />,
-  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
     <RouterProvider router={router} />
-    <Footer />
   </React.StrictMode>
 );

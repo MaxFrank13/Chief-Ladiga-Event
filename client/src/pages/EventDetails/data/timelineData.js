@@ -9,24 +9,24 @@ const fridayTimeline = {
         header: '8:00am',
         subheaders: [],
         todos: [
-          'Shuttle departs Hotel to',
-          'Silver Comet Parking Lot - 4625 Camp Highland Rd, Smyrna, GA 30082',
+          'Shuttle departs to Silver Comet Parking Lot',
+          '4625 Camp Highland Rd, Smyrna, GA 30082',
         ],
       },
       {
         header: '9:00am',
         subheaders: [],
         todos: [
-          'Pre-ride Meeting at 4625 Camp Highland Rd, Smyrna, GA 30082',
+          'Pre-ride meeting at 4625 Camp Highland Rd, Smyrna, GA 30082',
         ],
       },
       {
         header: '9:45am',
         subheaders: [],
         todos: [
-          'Rolling start to trail head',
-          'Personal Food and Drinks can be shuttled to aid stations along the way',
-          'Gear will be transported to Rockmart',
+          'Rolling start to trailhead',
+          'Personal food and drinks can be shuttled to aid stations along the way',
+          'Gear will be transported to Rockmart Trailhead',
         ],
       },
       {
@@ -34,19 +34,19 @@ const fridayTimeline = {
         subheaders: [
           {
             text: 'mile 20',
-            task: 'Drink & snack - Tara Drummond Trail Head',
+            task: 'drinks & snacks at Tara Drummond Trailhead | mile marker 20.23',
           },
         ],
         todos: [
-          'START at mile marker 0 at Mavell Road Trail Head',
+          'START mile marker 0 at Mavell Road Trailhead',
         ],
       },
       {
         header: '4:00pm',
         subheaders: [],
         todos: [
-          'FINISH at Rockmart Trail Head',
-          'Drink & snack',
+          'FINISH at Rockmart Trailhead',
+          'drinks & snacks',
         ],
       },
       {
@@ -79,8 +79,8 @@ const saturdayTimeline = {
         header: '8:00am',
         subheaders: [],
         todos: [
-          'Shuttle departs Hotel to Rockmart Trail Head',
-          'Personal Food and Drinks can be shuttled to aid stations along the way',
+          'Shuttle departs to Rockmart Trailhead',
+          'Personal food and drinks can be shuttled to aid stations along the way',
           'Gear will be transported to Anniston',
         ],
       },
@@ -89,7 +89,7 @@ const saturdayTimeline = {
         subheaders: [
           {
             text: 'mile 14',
-            task: 'Drink at Cedartown Depot, mile marker 52',
+            task: 'drinks at Cedartown Depot | mile marker 52',
           },
           {
             text: 'mile 24',
@@ -98,7 +98,7 @@ const saturdayTimeline = {
           },
           {
             text: 'mile 37',
-            task: 'Drink & snack at Eubanks Welcome Center, mile marker 13.6',
+            task: 'drinks & snacks at Eubanks Welcome Center | mile marker 13.6',
           },
         ],
         todos: [
@@ -110,7 +110,7 @@ const saturdayTimeline = {
         subheaders: [],
         todos: [
           'FINISH (5pm EST)',
-          'Drink & Snack, mile marker 32.5',
+          'drinks & snacks | mile marker 32.5',
         ],
       },
       {
@@ -137,7 +137,7 @@ const sundayTimeline ={
         header: '5:30am CST',
         subheaders: [],
         todos: [
-          'Shuttle departs Hotel (6:30am EST)',
+          'Shuttle departs to mile marker 32.5',
           'Personal food and drinks can be shuttled to aid stations along the way',
           'Gear will be transported to Smyrna',
         ],
@@ -147,7 +147,7 @@ const sundayTimeline ={
         subheaders: [
           {
             text: 'mile 20',
-            task: 'Drink at Eubanks Welcome Center, mile marker 13',
+            task: 'drinks at Eubanks Welcome Center | mile marker 13',
           },
           {
             text: 'mile 33',
@@ -156,15 +156,15 @@ const sundayTimeline ={
           },
           {
             text: 'mile 43',
-            task: 'Drink at Cedartown Depot, mile marker 52',
+            task: 'drinks at Cedartown Depot | mile marker 52',
           },
           {
             text: 'mile 56',
-            task: 'Drink & snack at Rockmart, mile marker 38.76',
+            task: 'drinks & snacks at Rockmart | mile marker 38.76',
           },
           {
             text: 'mile 74',
-            task: 'Drink at Tara Drummond Trailhead, mile marker 20.23',
+            task: 'drinks at Tara Drummond Trailhead | mile marker 20.23',
           },
         ],
         todos: [

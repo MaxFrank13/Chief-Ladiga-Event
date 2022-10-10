@@ -2,11 +2,11 @@ import React from "react";
 
 export default function AddressList() {
   return(
-    <section className='px-4'>
-      <h4 className='text-xl border-b-2 inline-block mb-2'>Hotel information</h4>
+    <section>
+      <h4 className='text-3xl border-b-2 inline-block mb-2'>Hotel information</h4>
       <div className='flex flex-col sm:flex-row items-start gap-2'>
         <div className='px-4 py-2 bg-green-100 rounded shadow-both hover:shadow-pressed w-52'>
-          <a href='https://goo.gl/maps/4KornD73i63zVRif7' target="_blank" >
+          <a href='https://goo.gl/maps/4KornD73i63zVRif7' target="_blank" rel="noreferrer" >
             <h5 className='font-bold text-center'>Thursday/Sunday</h5>
             <p>
               LaQuinta Inn & Suites
@@ -23,7 +23,7 @@ export default function AddressList() {
           </a>
         </div>
         <div className='px-4 py-2 bg-green-50 rounded shadow-both hover:shadow-pressed w-52'>
-          <a href='https://goo.gl/maps/Y1sBtSGR1ui8q6iZ6' target="_blank" >
+          <a href='https://goo.gl/maps/Y1sBtSGR1ui8q6iZ6' target="_blank" rel="noreferrer">
             <h5 className='font-bold text-center'>Friday</h5>
             <p>
               Western Inn
@@ -40,7 +40,7 @@ export default function AddressList() {
           </a>
         </div>
         <div className='px-4 py-2 bg-green-100 rounded shadow-both hover:shadow-pressed w-52'>
-          <a href='https://goo.gl/maps/mxfU1omoSDJEEuvZA' target="_blank" >
+          <a href='https://goo.gl/maps/mxfU1omoSDJEEuvZA' target="_blank" rel="noreferrer">
             <h5 className='font-bold text-center'>Saturday</h5>
             <p>
               Econo Lodge
