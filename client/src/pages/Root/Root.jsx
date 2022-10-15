@@ -28,17 +28,49 @@ export default function Root() {
             <p className='my-2'>
               That being said, this ride is no joke. Make sure to prepare accordingly. Among other things that will be covered in the pre-ride meeting (see the <Link to='/details' className='text-green-700 hover:text-green-500 font-bold'>
                   event details page</Link>)
-              , you should: have enough water/food/nutrition for each day, make sure you are capable of taking care of yourself on the trail, make sure you understand the risks involved, have a reliable plan for when things go wrong, and of course have the proper gear for this kind of ride.
+              , you should: 
+              <ul className='px-4 py-1 border-2 border-yellow-500 rounded shadow-inner w-fit'>
+                <li className='flex gap-2'>
+                  <input type='checkbox' />
+                  <label>
+                    make sure you have enough water/food/nutrition for each day
+                  </label>
+                </li>
+                <li className='flex gap-2'>
+                  <input type='checkbox' />
+                  <label>
+                    make sure you are capable of taking care of yourself on the trail
+                  </label>
+                </li>
+                <li className='flex gap-2'>
+                  <input type='checkbox' />
+                  <label>
+                    make sure you understand the risks involved
+                  </label>
+                </li>
+                <li className='flex gap-2'>
+                  <input type='checkbox' />
+                  <label>
+                    have a reliable plan for the unexpected
+                  </label>
+                </li>
+                <li className='flex gap-2'>
+                  <input type='checkbox' />
+                  <label>
+                    have the proper gear for this kind of ride
+                  </label>
+                </li>
+              </ul>
             </p>
             <p>
               If you have any questions at all about preparation for the ride, please do not hesitate to reach out to the event director at <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>
-                sk8188@challenge.com</a>. The <a className='text-green-700 hover:text-green-500 font-bold' href='https://www.facebook.com/ChiefLadigaSilverCometSk8' alt='Chief Ladiga Silver Comet Sk8 Challenge Facebook page' target='_blank' rel='noreferrer'>Facebook page</a> is also a great place to ask questions and keep up to date with any news regarding the event. 
+                sk8188challenge@gmail.com</a>. The <a className='text-green-700 hover:text-green-500 font-bold' href='https://www.facebook.com/ChiefLadigaSilverCometSk8' alt='Chief Ladiga Silver Comet Sk8 Challenge Facebook page' target='_blank' rel='noreferrer'>Facebook page</a> is also a great place to ask questions and keep up to date with any news regarding the event. 
             </p>
             <div className='flex flex-col items-center border-t-2 pt-4 mt-4'>
               <h5 className='bg-green-100 px-2 py-1 rounded font-medium mb-1'>Interested in helping to support or sponsor this year's event?</h5>
               <p>
                 We are currently accepting volunteers and welcome any help to plan the 10th annual Sk8 Challenge (2023). Please email the event director at <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>
-                sk8188@challenge.com</a> for any inquiries involving support or sponsorships.
+                sk8188challenge@gmail.com</a> for any inquiries involving support or sponsorships.
               </p>
             </div>
           </div>

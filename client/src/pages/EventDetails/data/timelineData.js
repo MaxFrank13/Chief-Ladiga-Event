@@ -2,6 +2,7 @@ const fridayTimeline = {
   thisDay: {
     number: 1,
     miles: 38,
+    cityInfo: ['Smyrna, GA', 'Rockmart, GA'],
   },
   timeline:
     [
@@ -34,18 +35,22 @@ const fridayTimeline = {
         subheaders: [
           {
             text: 'mile 20',
-            task: 'drinks & snacks at Tara Drummond Trailhead | mile marker 20.23',
+            task: 'drinks & snacks at Tara Drummond Trailhead',
+            mileMarker: '20.23',
           },
         ],
         todos: [
-          'START mile marker 0 at Mavell Road Trailhead',
+          'START',
+          'at Mavell Road Trailhead',
         ],
+        mileMarker: '0',
       },
       {
         header: '4:00pm',
         subheaders: [],
         todos: [
-          'FINISH at Rockmart Trailhead',
+          'FINISH',
+          'at Rockmart Trailhead',
           'drinks & snacks',
         ],
       },
@@ -72,6 +77,7 @@ const saturdayTimeline = {
   thisDay: {
     number: 2,
     miles: 56,
+    cityInfo: ['Rockmart, GA', 'Anniston, AL'],
   },
   timeline:
     [
@@ -89,21 +95,26 @@ const saturdayTimeline = {
         subheaders: [
           {
             text: 'mile 14',
-            task: 'drinks at Cedartown Depot | mile marker 52',
+            task: 'drinks at Cedartown Depot',
+            mileMarker: '52.00',
           },
           {
             text: 'mile 24',
             task: 'Cross into Alabama at mile marker 62. Timezone change to Central Standard Time (CST, 1 hour BEHIND) and the mile markers will reset to 0',
             note: 'CAUTION: this is NOT a pitstop. This is actually the most remote section of the trail. Be safe!',
+            mileMarker: '62.00 | 0',
           },
           {
             text: 'mile 37',
-            task: 'drinks & snacks at Eubanks Welcome Center | mile marker 13.6',
+            task: 'drinks & snacks at Eubanks Welcome Center',
+            mileMarker: '13.60'
           },
         ],
         todos: [
-          'START at mile marker 38.76 in Rockmart, GA',
+          'START',
+          'at Rockmart Trailhead'
         ],
+        mileMarker: '38.76',
       },
       {
         header: '4:00pm CST',
@@ -130,6 +141,7 @@ const sundayTimeline ={
   thisDay: {
     number: 3,
     miles: 94,
+    cityInfo: ['Anniston, AL', 'Smyrna, GA'],
   },
   timeline:
     [
@@ -147,29 +159,36 @@ const sundayTimeline ={
         subheaders: [
           {
             text: 'mile 20',
-            task: 'drinks at Eubanks Welcome Center | mile marker 13',
+            task: 'drinks at Eubanks Welcome Center',
+            mileMarker: '13.60',
           },
           {
             text: 'mile 33',
             task: 'Cross into Georgia. Timezone change to Eastern Standard Time (EST, 1 hour AHEAD) and the mile markers will count down from 62.',
             note: 'CAUTION: this is NOT a pitstop. This is actually the most remote section of the trail. Be safe!',
+            mileMarker: '0 | 62.00'
           },
           {
             text: 'mile 43',
-            task: 'drinks at Cedartown Depot | mile marker 52',
+            task: 'drinks at Cedartown Depot',
+            mileMarker: '52.00',
           },
           {
             text: 'mile 56',
-            task: 'drinks & snacks at Rockmart | mile marker 38.76',
+            task: 'drinks & snacks at Rockmart',
+            mileMarker: '38.76',
           },
           {
             text: 'mile 74',
-            task: 'drinks at Tara Drummond Trailhead | mile marker 20.23',
+            task: 'drinks at Tara Drummond Trailhead',
+            mileMarker: '20.23',
           },
         ],
         todos: [
-          'START at mile marker 32.5 (counting down)',
+          'START',
+          'at mile marker 32.5 (counting down)'
         ],
+        mileMarker: '32.5',
       },
       {
         header: '5:30pm EST',
