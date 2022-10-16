@@ -8,9 +8,7 @@ import homePhoto from '../../assets/chief-crew-homepage.jpg';
 export default function Root() {
   return (
     <>
-      <Header
-        currentPage=''
-      />
+      <Header />
       <h2 className='text-3xl text-center pt-6 mb-2 underline'>The new face of Blood Sweat and Stoke</h2>
       <section className='flex flex-col max-w-3xl mx-auto p-4 sm:pb-8'>
         <section>
@@ -63,7 +61,7 @@ export default function Root() {
               </ul>
             </p>
             <p>
-              If you have any questions at all about preparation for the ride, please do not hesitate to reach out to the event director at <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>
+              If you have any questions at all about preparation, please do not hesitate to reach out to the event director at <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>
                 sk8188challenge@gmail.com</a>. The <a className='text-green-700 hover:text-green-500 font-bold' href='https://www.facebook.com/ChiefLadigaSilverCometSk8' alt='Chief Ladiga Silver Comet Sk8 Challenge Facebook page' target='_blank' rel='noreferrer'>Facebook page</a> is also a great place to ask questions and keep up to date with any news regarding the event. 
             </p>
             <div className='flex flex-col items-center border-t-2 pt-4 mt-4'>

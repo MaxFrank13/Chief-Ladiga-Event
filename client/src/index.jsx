@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import Root from './pages/Root';
 import EventDetails from './pages/EventDetails';
 import Register from './pages/Register';
+import History from './pages/History';
+
 import {
   createHashRouter,
   RouterProvider
@@ -22,6 +24,10 @@ const router = createHashRouter([
   {
     path: "/register",
     element: <Register />,
+  },
+  {
+    path: "/history",
+    element: <History />,
   },
 ]);
 
