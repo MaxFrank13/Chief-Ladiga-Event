@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/Chief-Ladiga-Event/static/css/main.f65c95a0.css",
-    "main.js": "/Chief-Ladiga-Event/static/js/main.cf0b5866.js",
+    "main.css": "/Chief-Ladiga-Event/static/css/main.d5f73b3d.css",
+    "main.js": "/Chief-Ladiga-Event/static/js/main.d5a14615.js",
     "static/media/chief-crew-homepage.jpg": "/Chief-Ladiga-Event/static/media/chief-crew-homepage.ccef477b73220caa5d37.jpg",
+    "static/media/2023_Dates.png": "/Chief-Ladiga-Event/static/media/2023_Dates.d99ef072211ede1370a6.png",
+    "static/media/barbaro.roman.ttf": "/Chief-Ladiga-Event/static/media/barbaro.roman.4a65b6e34caa5c7a63f6.ttf",
+    "static/media/google_spreadsheet_001.png": "/Chief-Ladiga-Event/static/media/google_spreadsheet_001.0b02de9bddc95cb3c311.png",
     "static/media/chief-logo.png": "/Chief-Ladiga-Event/static/media/chief-logo.fdd89cc3b8df011d06dd.png",
     "index.html": "/Chief-Ladiga-Event/index.html",
-    "main.f65c95a0.css.map": "/Chief-Ladiga-Event/static/css/main.f65c95a0.css.map",
-    "main.cf0b5866.js.map": "/Chief-Ladiga-Event/static/js/main.cf0b5866.js.map"
+    "main.d5f73b3d.css.map": "/Chief-Ladiga-Event/static/css/main.d5f73b3d.css.map",
+    "main.d5a14615.js.map": "/Chief-Ladiga-Event/static/js/main.d5a14615.js.map"
   },
   "entrypoints": [
-    "static/css/main.f65c95a0.css",
-    "static/js/main.cf0b5866.js"
+    "static/css/main.d5f73b3d.css",
+    "static/js/main.d5a14615.js"
   ]
 }
