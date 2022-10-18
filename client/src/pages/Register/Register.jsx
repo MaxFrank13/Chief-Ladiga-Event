@@ -9,9 +9,9 @@ export default function Register() {
       <Header
         currentPage='register'
       />
-      <h2 className='text-3xl text-center pt-6 mb-2 underline'>Registration</h2>
-      <section className='max-w-3xl mx-auto p-4'>
-        <div className='flex flex-col gap-6 text-lg'>
+      <section className='max-w-3xl mx-auto p-4 flex flex-col gap-4'>
+        <h2 className='text-3xl pt-6 mb-2 underline'>Registration</h2>
+        <div className='flex flex-col gap-6 sm:text-lg'>
           <p>
             For the 2023 event, registration is currently being handled through this <a className='text-green-700 hover:text-green-500 font-bold' href='https://docs.google.com/forms/d/e/1FAIpQLSfraoZDR_Whfc82iZJIY38NGRl-gR3FfzlhsHB_bgrFLLj6SA/viewform' alt='Google form for event'>google form</a>.
           </p>
@@ -35,7 +35,7 @@ export default function Register() {
             In the event that you have completed all of the registration steps and there are no spots left, you will be immediately put on the waiting list. For additional questions, contact <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>sk8188challenge@gmail.com</a>.
           </p>
         </div>
-        <div className='p-4 hidden sm:block'>
+        <div className='py-8 px-4 hidden sm:block'>
           <img src={datesPhoto} alt='Information about time and dates for the event'className='mx-auto w-screen'/>
         </div>
       </section>

@@ -14,15 +14,13 @@ export default function Header({ currentPage }) {
             <h1 className='w-96 text-grey-50 text-2xl sm:text-5xl text-center font-medium tracking-wide py-2 border-b-2 border-yellow-200 mx-auto'>Chief Ladiga Silver Comet Sk8 Challenge</h1>
             <nav>
               <ul className='flex'>
-              {['DETAILS', 'REGISTER', 'HISTORY'].map((text, idx, array) => (
-                <li key={idx} className={`${idx === 0 ? 'rounded-tl' : idx === array.length - 1 ? 'rounded-tr' : ''} ${text.toLowerCase() === currentPage ? 'bg-grey-50 text-grey-900 shadow-topDown' : 'shadow-topDown bg-grey-900 text-green-500'} w-1/3 sm:w-32 py-2 font-bold text-center`}>
-                  <Link 
-                    to={`/${text.toLowerCase()}`}
-                  >
-                    {text}
-                  </Link>
-                </li>
-              ))}
+                {['DETAILS', 'REGISTER', 'HISTORY'].map((text, idx, array) => (
+                <Link to={`/${text.toLowerCase()}`} className='w-1/3 sm:w-32'>
+                  <li key={idx} className={`${idx === 0 ? 'rounded-tl' : idx === array.length - 1 ? 'rounded-tr' : ''} ${text.toLowerCase() === currentPage ? 'bg-grey-50 text-grey-900 shadow-topDown' : 'shadow-topDown bg-grey-900 text-green-500'} py-2 font-bold text-center`}>
+                      {text}
+                  </li>
+                </Link>
+                ))}
               </ul>
             </nav>
           </div>
