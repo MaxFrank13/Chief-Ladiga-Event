@@ -47,7 +47,7 @@ export default function TimelineTable({ data }) {
       {timeline.map((item, idx) => (
         <div 
           key={idx} 
-          className={`${item.subheaders.length > 0 ? 'bg-yellow-100' : 'bg-green-50'} shadow-inner p-4`}
+          className={`${item.subheaders.length > 0 || item.isFinish ? 'bg-yellow-100' : 'bg-green-50'} shadow-inner p-4`}
         >
           <div className='flex  py-2'>
             <p className='min-w-[100px] sm:min-w-[120px] font-medium'>

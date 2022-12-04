@@ -8,7 +8,7 @@ export default function Thursday() {
       <section className='py-4'>
         <section className='flex flex-col gap-4'>
           <div>
-            <h3 className='text-3xl sizetext-green-900 border-b-2 inline-block'>Thursday June 1st, 2023</h3>
+            <h3 className='text-3xl border-b-2 inline-block'>Thursday June 1st, 2023</h3>
           </div>
           <div className='flex flex-col gap-4 sm:text-lg'>
             <p>
@@ -26,7 +26,8 @@ export default function Thursday() {
             <section className='flex flex-col items-center gap-4 text-center'>
               <div className='max-w-lg shadow-inner rounded-tl rounded-tr'>
                 <p className='bg-yellow-100 p-2 rounded-tl rounded-tr'>
-                  Mandatory for all riders.  If you're not arriving in Atlanta in time to attend  this meeting you must communicate to Carlos Montalvo BEFORE Thursday June 1st.
+                  Mandatory for all riders.  If you're not arriving in Atlanta in time to attend  this meeting you must communicate to <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>
+          the event</a> BEFORE Thursday June 1st.
                 </p>
                 <p className='flex text-lg font-bold bg-yellow-400 leading-8 rounded-bl rounded-br p-2'>
                   <FontAwesomeIcon icon={faExclamationCircle} className='p-2' color='#AB091E' />

@@ -6,27 +6,27 @@ import Register from './pages/Register';
 import History from './pages/History';
 
 import {
-  createHashRouter,
+  createBrowserRouter,
   RouterProvider
 } from 'react-router-dom';
 
 import './index.css';
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/Chief-Ladiga-Event',
     element: <Root />,
   },
   {
-    path: "/details",
+    path: '/Chief-Ladiga-Event/details',
     element: <EventDetails />,
   },
   {
-    path: "/register",
+    path: '/Chief-Ladiga-Event/register',
     element: <Register />,
   },
   {
-    path: "/history",
+    path: '/Chief-Ladiga-Event/history',
     element: <History />,
   },
 ]);

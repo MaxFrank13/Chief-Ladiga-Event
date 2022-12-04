@@ -1,9 +1,17 @@
-import React from "react";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExclamationCircle } from '@fortawesome/free-solid-svg-icons';
 
 export default function AddressList() {
-  return(
+  return (
     <section>
-      <h4 className='text-3xl border-b-2 inline-block mb-2'>Hotel information</h4>
+      <h4 className='text-3xl border-b-2 inline-block mb-2'>Hotel Information</h4>
+      <p className='flex text-lg font-bold bg-yellow-400 leading-8 rounded p-2 m-2 mb-4'>
+        <FontAwesomeIcon icon={faExclamationCircle} className='p-2' color='#AB091E' />
+        <span>
+          All hotel information is subject to change and has NOT been finalized. The event director is currently working on securing the below options. Please bear this in mind as you navigate the site wherever you see information regarding hotel arrangements. Nothing is final, yet. We appreciate your patience and apologize for any inconvenience this may cause.
+        </span>
+      </p>
       <div className='flex flex-col sm:flex-row items-start gap-2'>
         <div className='px-4 py-2 bg-green-100 rounded shadow-both hover:shadow-pressed w-52'>
           <a href='https://goo.gl/maps/4KornD73i63zVRif7' target="_blank" rel="noreferrer" >
@@ -46,7 +54,7 @@ export default function AddressList() {
               Econo Lodge
             </p>
             <p>
-              25 Elm St 
+              25 Elm St
             </p>
             <p>
               Oxford, AL

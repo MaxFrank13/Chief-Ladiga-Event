@@ -38,6 +38,11 @@ const fridayTimeline = {
             task: 'drinks & snacks at Tara Drummond Trailhead',
             mileMarker: '20.23',
           },
+          {
+            text: 'mile 38',
+            task: 'Finish line at Rockmart Trailhead',
+            mileMarker: '38.76'
+          },
         ],
         todos: [
           'START',
@@ -49,8 +54,7 @@ const fridayTimeline = {
         header: '4:00pm',
         subheaders: [],
         todos: [
-          'FINISH',
-          'at Rockmart Trailhead',
+          'Rockmart Trailhead',
           'drinks & snacks',
         ],
       },
@@ -109,6 +113,11 @@ const saturdayTimeline = {
             task: 'drinks & snacks at Eubanks Welcome Center',
             mileMarker: '13.60'
           },
+          {
+            text: 'mile 56',
+            task: 'Finish line at Anniston Trailhead',
+            mileMarker: '32.5'
+          },
         ],
         todos: [
           'START',
@@ -120,7 +129,6 @@ const saturdayTimeline = {
         header: '4:00pm CST',
         subheaders: [],
         todos: [
-          'FINISH (5pm EST)',
           'drinks & snacks | mile marker 32.5',
         ],
       },
@@ -183,6 +191,11 @@ const sundayTimeline ={
             task: 'drinks at Tara Drummond Trailhead',
             mileMarker: '20.23',
           },
+          {
+            text: 'mile 94',
+            task: 'Finish at Smyrna Trailhead',
+            mileMarker: '0',
+          },
         ],
         todos: [
           'START',
@@ -205,8 +218,7 @@ const sundayTimeline ={
         header: 'Last rider',
         subheaders: [],
         todos: [
-          'FINISH - Snack at finish line & dinner at La Quinta hotel',
-
+          'Drinks & snacks at finish line & dinner at La Quinta hotel',
         ],
       },
       {
