@@ -1,7 +1,7 @@
 export const preparations = [
   {
     header: 'Make sure you have enough nutrition for each day',
-    details: 'Recommendation is 12 oz per hour or more in the heat of the South. You should also be eating around 200 calories per hour to fuel yourself. Everyone is different. Be sure to train for this type of endurance.',
+    details: 'Recommendation is 12 oz per hour or more in the heat of the South. You should also be consuming around 200 calories per hour to fuel yourself. Everyone is different. Be sure to train for this type of endurance.',
   },
   {
     header: 'Make sure you are capable of taking care of yourself on the trail',
@@ -13,7 +13,7 @@ export const preparations = [
   },
   {
     header: 'Have a reliable plan for the unexpected',
-    details: 'It is recommended to bring a first aid kit as well as spare parts/tools to repair your skateboard if needed. Make sure to familiarize yourself with the items you are bringing as you may very well be on your own when something goes wrong.',
+    details: 'It is recommended to bring a first aid kit as well as spare parts/tools to repair your skateboard if needed. Make sure to familiarize yourself with the items you are bringing.',
   },
   {
     header: 'Have the proper gear for this ride',

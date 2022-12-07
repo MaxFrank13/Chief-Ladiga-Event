@@ -136,7 +136,7 @@ const saturdayTimeline = {
         header: 'Lodging',
         subheaders: [],
         todos: [
-          'Hotel stay at in Oxford. Again a shuttle will take you from the trail head to the hotel.',
+          'Hotel in Oxford. Again a shuttle will take you from the trail head to the hotel.',
           'Econo Lodge 25 Elm St, Oxford, AL 36203',
           'Other hotels are available in the area and can be purchased on your own. Just be sure to reflect this on your registration page.',
           'Note that transportation will only be provided to and from the main hotel.',
@@ -208,7 +208,7 @@ const sundayTimeline ={
         subheaders: [],
         todos: [
           'CUTOFF at mile marker 20.23 (for rider safety) - Tara Drummond Trailhead',
-          'You MUST be at mile marker 20.23 (the last feed/ check-in station) by 5:30pm to be allowed to continue.',
+          'You MUST be at mile marker 20.23 (the last feed/check-in station) by 5:30pm to be allowed to continue.',
           'If you don\'t reach this point by 5:30pm you\'ll be pulled from the event & driven to the finish line for your own safety.',
           'This pace is an average of 7.5mph or 8 minutes per mile.',
         ],

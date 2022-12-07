@@ -20,7 +20,7 @@ export default function History() {
         </div>
         <div>
           <p>
-            Overall event results for each year can be found in <a href='https://docs.google.com/spreadsheets/d/1fFrUB4NrTBgYxvIFTwyv90QRexYTYma1UDrJew_BJpw/edit?usp=sharing' className='text-green-700 hover:text-green-500 font-bold'>
+            Overall event results for each year can be found in <a href='https://docs.google.com/spreadsheets/d/1fFrUB4NrTBgYxvIFTwyv90QRexYTYma1UDrJew_BJpw/edit?usp=sharing' className='text-green-700 hover:text-green-500 font-bold'  target="_blank" rel="noreferrer">
               this Google Spreadsheet
             </a>
             .

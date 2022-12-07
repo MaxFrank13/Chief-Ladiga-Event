@@ -15,21 +15,21 @@ export default function Register() {
         </div>
         <div className='flex flex-col gap-6 sm:text-lg'>
           <p>
-            For the 2023 event, registration is currently being handled through this <a className='text-green-700 hover:text-green-500 font-bold' href='https://docs.google.com/forms/d/e/1FAIpQLSfraoZDR_Whfc82iZJIY38NGRl-gR3FfzlhsHB_bgrFLLj6SA/viewform' alt='Google form for event'>google form</a>.
+            For the 2023 event, registration is currently being handled through this <a className='text-green-700 hover:text-green-500 font-bold' href='https://docs.google.com/forms/d/e/1FAIpQLSfraoZDR_Whfc82iZJIY38NGRl-gR3FfzlhsHB_bgrFLLj6SA/viewform' alt='Google form for event' target="_blank" rel="noreferrer">google form</a>.
           </p>
           <p>
             In addition to filling out that form, there are other steps you must complete before your registration is finalized.
           </p>
           <p>
-            These steps are outlined in detail in the <a className='text-green-700 hover:text-green-500 font-bold' href='https://docs.google.com/forms/d/e/1FAIpQLSfraoZDR_Whfc82iZJIY38NGRl-gR3FfzlhsHB_bgrFLLj6SA/viewform' alt='Google form for event'>google form</a>. If you are having difficulties at any point in the process, don't hesitate to reach out to <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>sk8188challenge@gmail.com</a>.
+            These steps are outlined in detail in the <a className='text-green-700 hover:text-green-500 font-bold' href='https://docs.google.com/forms/d/e/1FAIpQLSfraoZDR_Whfc82iZJIY38NGRl-gR3FfzlhsHB_bgrFLLj6SA/viewform' alt='Google form for event' target='_blank' rel='noreferrer'>google form</a>. If you are having difficulties at any point in the process, don't hesitate to reach out to <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>sk8188challenge@gmail.com</a>.
           </p>
           <p>
             One of the things you'll be asked to do is fill out a
-            <a className='text-green-700 hover:text-green-500 font-bold' href='https://drive.google.com/file/d/1wELmrOvipxuKqUUt4wVyoLp8whQZPtTW/view' alt='Waiver for event' rel='noreferrer'>
+            <a className='text-green-700 hover:text-green-500 font-bold' href='https://drive.google.com/file/d/1wELmrOvipxuKqUUt4wVyoLp8whQZPtTW/view' alt='Waiver for event' target='_blank' rel='noreferrer'>
               &nbsp;waiver&nbsp;
             </a>
             as well as sign the official
-            <a className='text-green-700 hover:text-green-500 font-bold' href='https://drive.google.com/file/d/1tkJBu8fbbHM91IHVlCYtXfTqDX1M4sy_/view' alt='Rules of Conduct' rel='noreferrer'>
+            <a className='text-green-700 hover:text-green-500 font-bold' href='https://drive.google.com/file/d/1tkJBu8fbbHM91IHVlCYtXfTqDX1M4sy_/view' alt='Rules of Conduct' target='_blank' rel='noreferrer'>
               &nbsp;Rules of Conduct
             </a>. The aforementioned steps in the google form instruct you on how to submit these documents.
           </p>

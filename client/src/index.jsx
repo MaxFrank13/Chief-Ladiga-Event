@@ -6,13 +6,13 @@ import Register from './pages/Register';
 import History from './pages/History';
 
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider
 } from 'react-router-dom';
 
 import './index.css';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/Chief-Ladiga-Event',
     element: <Root />,
@@ -29,6 +29,10 @@ const router = createBrowserRouter([
     path: '/Chief-Ladiga-Event/history',
     element: <History />,
   },
+  {
+    path: '*',
+    element: <Root />
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

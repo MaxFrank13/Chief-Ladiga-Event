@@ -9,7 +9,7 @@ export default function AddressList() {
       <p className='flex text-lg font-bold bg-yellow-400 leading-8 rounded p-2 m-2 mb-4'>
         <FontAwesomeIcon icon={faExclamationCircle} className='p-2' color='#AB091E' />
         <span>
-          All hotel information is subject to change and has NOT been finalized. The event director is currently working on securing the below options. Please bear this in mind as you navigate the site wherever you see information regarding hotel arrangements. Nothing is final, yet. We appreciate your patience and apologize for any inconvenience this may cause.
+          All hotel information is subject to change and has NOT been finalized. The event director is currently working on securing the below options. Please bear this in mind as you navigate the site wherever you see information regarding hotel arrangements. We appreciate your patience and apologize for any inconvenience this may cause.
         </span>
       </p>
       <div className='flex flex-col sm:flex-row items-start gap-2'>

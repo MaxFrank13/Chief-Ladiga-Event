@@ -13,7 +13,7 @@ export default function Root() {
       />
       <section className='max-w-3xl flex flex-col mx-auto p-4 sm:pb-8'>
         <div>
-          <h2 className='text-3xl border-b-2 inline-block'>The new face of Blood Sweat and Stoke</h2>
+          <h2 className='text-3xl border-b-2 inline-block'>Welcome to the new face of Blood Sweat and Stoke</h2>
         </div>
         <section className='flex flex-col max-w-3xl mx-auto'>
           <section>
