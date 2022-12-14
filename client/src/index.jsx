@@ -14,19 +14,19 @@ import './index.css';
 
 const router = createHashRouter([
   {
-    path: '/Chief-Ladiga-Event',
+    path: '/',
     element: <Root />,
   },
   {
-    path: '/Chief-Ladiga-Event/details',
+    path: '/details',
     element: <EventDetails />,
   },
   {
-    path: '/Chief-Ladiga-Event/register',
+    path: '/register',
     element: <Register />,
   },
   {
-    path: '/Chief-Ladiga-Event/history',
+    path: '/history',
     element: <History />,
   },
   {

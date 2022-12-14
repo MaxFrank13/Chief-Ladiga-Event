@@ -24,7 +24,7 @@ export default function Header({ currentPage }) {
   
   return (
     <header className='bg-grey-900 pt-6 shadow-xl'>
-      <Link to='/Chief-Ladiga-Event'>
+      <Link to='/'>
         <div className='max-w-screen-lg flex sm:justify-around mx-auto'>
           <div className='bg-grey-50 rounded-100 hidden sm:inline-block mb-6'>
             <img src={logo} alt='Chief Ladiga logo' className='px-8 h-40' />
@@ -34,7 +34,7 @@ export default function Header({ currentPage }) {
             <nav>
               <ul className='flex'>
                 {tabs.map((item, idx, array) => (
-                <Link to={`/Chief-Ladiga-Event/${item.path?.toLowerCase()}`} className="w-1/4">
+                <Link to={`/${item.path.toLowerCase()}`} className="w-1/4">
                   <li key={idx} className={`${idx === 0 ? 'rounded-tl' : idx === array.length - 1 ? 'rounded-tr' : ''} ${item.name.toLowerCase() === currentPage ? 'bg-grey-50 text-grey-900 shadow-topDown' : 'shadow-topDown bg-grey-900 text-green-500'} py-2 font-bold text-center`}>
                       {item.name.toUpperCase()}
                   </li>
