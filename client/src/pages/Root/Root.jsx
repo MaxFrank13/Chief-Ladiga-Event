@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../../components/Header';
 import Intro from './partials/Intro';
 import Preparation from './partials/Preparation';
-import Shoutout from './partials/Shoutout';
+import SponsorList from '../Sponsors/partials/SponsorList';
 import Support from './partials/Support';
 
 export default function Root() {
@@ -20,7 +20,9 @@ export default function Root() {
             <div className='relative text-lg'>
               <Intro />
               <Preparation />
-              <Shoutout />
+              <div className='flex flex-col gap-4 border-t-2 pt-6 mt-4'>
+                <SponsorList />
+              </div>
               <Support />
             </div>
           </section>

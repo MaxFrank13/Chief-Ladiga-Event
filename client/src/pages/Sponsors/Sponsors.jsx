@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../../components/Header';
-import thaneLogo from '../../assets/Thane_logo.png';
+import Support from '../Root/partials/Support';
+import SponsorList from './partials/SponsorList';
+
 
 export default function Sponsors(){
   return (
@@ -8,10 +10,10 @@ export default function Sponsors(){
       <Header
         currentPage='sponsors'
       />
-      <div>
-        hello world
-      </div>
-      <img src={thaneLogo} alt='logo for Thane travel' />
+      <section className='max-w-3xl flex flex-col mx-auto p-4 sm:pb-8 gap-2 text-lg'>
+        <SponsorList />
+        <Support />
+      </section>
     </>
   )
 }

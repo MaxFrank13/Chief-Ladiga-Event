@@ -24,20 +24,22 @@ export default function History() {
             </a>
             .
           </p>
-          <div className='p-4 flex flex-col text-base'>
-            <div className='py-1 px-2 bg-yellow-200 rounded flex items-center gap-2 w-fit mb-4'>
-              <FontAwesomeIcon icon={faCircleInfo} />
-              <h5>
-                Use the panel at the bottom of the spreadsheet to cycle through each year's results.
-              </h5>
+          <a href='https://docs.google.com/spreadsheets/d/1fFrUB4NrTBgYxvIFTwyv90QRexYTYma1UDrJew_BJpw/edit?usp=sharing' target="_blank" rel="noreferrer">
+            <div className='p-4 flex flex-col text-base'>
+              <div className='py-1 px-2 bg-yellow-200 rounded flex items-center gap-2 w-fit mb-4'>
+                <FontAwesomeIcon icon={faCircleInfo} />
+                <h5>
+                  Use the panel at the bottom of the spreadsheet to cycle through each year's results.
+                </h5>
+              </div>
+              <div className='py-2 px-4 border-2 border-grey-300 rounded-lg'>
+                <img src={spreadsheetInfo} alt='spreadsheet info' />
+              </div>
+              <small className='mx-auto'>
+                screenshot of bottom of spreadsheet
+              </small>
             </div>
-            <div className='py-2 px-4 border-2 border-grey-300 rounded-lg'>
-              <img src={spreadsheetInfo} alt='spreadsheet info' />
-            </div>
-            <small className='mx-auto'>
-              screenshot of bottom of spreadsheet
-            </small>
-          </div>
+          </a>
         </div>
       </section>
 =    </>
