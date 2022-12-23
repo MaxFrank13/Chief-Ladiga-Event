@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../../components/Header';
-import Footer from '../../components/Footer';
 import Intro from './partials/Intro';
 import Preparation from './partials/Preparation';
+import Shoutout from './partials/Shoutout';
 import Support from './partials/Support';
 
 export default function Root() {
@@ -20,12 +20,12 @@ export default function Root() {
             <div className='relative text-lg'>
               <Intro />
               <Preparation />
+              <Shoutout />
               <Support />
             </div>
           </section>
         </section>
       </section>
-      <Footer />
     </>
   )
 }

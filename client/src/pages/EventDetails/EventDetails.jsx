@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import AddressList from './partials/AddressList';
 import Thursday from './partials/Thursday';
@@ -16,7 +15,6 @@ export default function EventDetails() {
         <Thursday />
         <Timeline />
       </section>
-      <Footer />
     </>
   )
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../../components/Header';
-import Footer from '../../components/Footer';
 import datesPhoto from '../../assets/2023_Dates.png';
 
 export default function Register() {
@@ -41,7 +40,6 @@ export default function Register() {
           <img src={datesPhoto} alt='Information about time and dates for the event' className='mx-auto w-screen' />
         </div>
       </section>
-      <Footer />
     </>
   )
 };

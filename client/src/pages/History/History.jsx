@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 import spreadsheetInfo from '../../assets/google_spreadsheet_001.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
@@ -41,7 +40,6 @@ export default function History() {
           </div>
         </div>
       </section>
-      <Footer />
-    </>
+=    </>
   )
 }
