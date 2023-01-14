@@ -19,14 +19,14 @@ export default function History() {
         </div>
         <div>
           <p>
-            Overall event results for each year can be found in <a href='https://docs.google.com/spreadsheets/d/1fFrUB4NrTBgYxvIFTwyv90QRexYTYma1UDrJew_BJpw/edit?usp=sharing' className='text-green-700 hover:text-green-500 font-bold'  target="_blank" rel="noreferrer">
+            Overall event results for each year can be found in <a href='https://docs.google.com/spreadsheets/d/1fFrUB4NrTBgYxvIFTwyv90QRexYTYma1UDrJew_BJpw/edit?usp=sharing' className='text-green-700 hover:text-green-500 font-bold' target="_blank" rel="noreferrer">
               this Google Spreadsheet
             </a>
             .
           </p>
           <a href='https://docs.google.com/spreadsheets/d/1fFrUB4NrTBgYxvIFTwyv90QRexYTYma1UDrJew_BJpw/edit?usp=sharing' target="_blank" rel="noreferrer">
             <div className='p-4 flex flex-col text-base'>
-              <div className='py-1 px-2 bg-yellow-200 rounded flex items-center gap-2 w-fit mb-4'>
+              <div className='py-1 px-2 bg-green-400 rounded font-medium flex items-center gap-2 w-fit mb-4'>
                 <FontAwesomeIcon icon={faCircleInfo} />
                 <h5>
                   Use the panel at the bottom of the spreadsheet to cycle through each year's results.
@@ -41,7 +41,15 @@ export default function History() {
             </div>
           </a>
         </div>
+        <div className='mt-12'>
+          <p className='flex text-lg font-medium bg-yellow-300 leading-8 rounded p-2'>
+            <FontAwesomeIcon icon={faCircleInfo} className='p-2' />
+            <span>
+              This section is still under development. If you have any history to share, feel free to reach out. Anything from photographs to fun race stories are welcome.
+            </span>
+          </p>
+        </div>
       </section>
-=    </>
+    </>
   )
 }

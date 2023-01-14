@@ -3,7 +3,7 @@ import homePhoto from '../../../assets/chief-crew-homepage.jpg';
 
 export default function Intro() {
   return (
-    <>
+    <div className='relative'>
       <p className='my-2'>
         The Chief Ladiga Silver Comet 188 mile Sk8 Challenge is a 3 day event of distance skateboarding through the Taladega National rainforest. The ride spans 2 states, 2 timezones, 5 counties and about 188 miles.
       </p>
@@ -20,6 +20,6 @@ export default function Intro() {
       <p className='my-2'>
         We've had riders as young as 12 and as old as 56 participate in this event. If you're interested in joining in one of the most unique rides you can do on a skateboard, then you've come to the right place.
       </p>
-    </>
+    </div>
   )
 }

@@ -4,7 +4,7 @@ import { sponsorData } from '../data/sponsorData';
 export default function SponsorList() {
   return (
     <>
-      <h3 className='text-2xl font-medium'>Special thanks to the sponsors for 2023</h3> 
+      <h3 className='text-2xl font-medium'>Special thanks to the Tier 1 sponsors for 2023</h3> 
       {sponsorData.map((sponsor, idx) => (
         <div className={`p-4 bg-grey-50 shadow-pressed rounded`}>
           <div>

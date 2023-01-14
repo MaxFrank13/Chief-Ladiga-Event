@@ -17,7 +17,7 @@ export default function Root() {
         </div>
         <section className='flex flex-col max-w-3xl mx-auto'>
           <section>
-            <div className='relative text-lg'>
+            <div className='text-lg'>
               <Intro />
               <Preparation />
               <div className='flex flex-col gap-4 border-t-2 pt-6 mt-4'>

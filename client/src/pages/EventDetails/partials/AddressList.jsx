@@ -12,8 +12,8 @@ export default function AddressList() {
           All hotel information is subject to change and has NOT been finalized. The event director is currently working on securing the below options. Please bear this in mind as you navigate the site wherever you see information regarding hotel arrangements. We appreciate your patience and apologize for any inconvenience this may cause.
         </span>
       </p>
-      <div className='flex flex-col sm:flex-row items-start gap-2'>
-        <div className='px-4 py-2 bg-green-100 rounded shadow-both hover:shadow-pressed w-52'>
+      <div className='flex flex-col items-center justify-center sm:flex-row gap-2'>
+        <div className='px-4 py-2 bg-green-200 rounded shadow-both hover:shadow-pressed w-52'>
           <a href='https://goo.gl/maps/4KornD73i63zVRif7' target="_blank" rel="noreferrer" >
             <h5 className='font-bold text-center'>Thursday/Sunday</h5>
             <p>
@@ -30,7 +30,7 @@ export default function AddressList() {
             </p>
           </a>
         </div>
-        <div className='px-4 py-2 bg-green-50 rounded shadow-both hover:shadow-pressed w-52'>
+        <div className='px-4 py-2 bg-green-100 rounded shadow-both hover:shadow-pressed w-52'>
           <a href='https://goo.gl/maps/Y1sBtSGR1ui8q6iZ6' target="_blank" rel="noreferrer">
             <h5 className='font-bold text-center'>Friday</h5>
             <p>
@@ -47,7 +47,7 @@ export default function AddressList() {
             </p>
           </a>
         </div>
-        <div className='px-4 py-2 bg-green-100 rounded shadow-both hover:shadow-pressed w-52'>
+        <div className='px-4 py-2 bg-green-200 rounded shadow-both hover:shadow-pressed w-52'>
           <a href='https://goo.gl/maps/mxfU1omoSDJEEuvZA' target="_blank" rel="noreferrer">
             <h5 className='font-bold text-center'>Saturday</h5>
             <p>

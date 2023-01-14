@@ -16,6 +16,7 @@ module.exports = {
         700: '#048271',
         800: '#016457',
         900: '#004440',
+        'opaque': '#004440ae'
       },
       grey: {
         50: '#F7F7F7',
@@ -66,6 +67,16 @@ module.exports = {
       screens: {
         'xs': '480px',
       },
+      backgroundImage: {
+        'hero-img': "url('/src/assets/tunnel-01.png')",
+      },
+      spacing: {
+        'hero-top': '29%',
+        'hero-left': '32%',
+      },
+      height: {
+        'half-screen': '80vh',
+      }
     },
   },
   plugins: [],
