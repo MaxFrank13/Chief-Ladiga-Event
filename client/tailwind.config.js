@@ -76,7 +76,10 @@ module.exports = {
       },
       height: {
         'half-screen': '80vh',
-      }
+      },
+      maxWidth: {
+        'half': '50%',
+      },
     },
   },
   plugins: [],

@@ -26,7 +26,7 @@ export default function History() {
           </p>
           <a href='https://docs.google.com/spreadsheets/d/1fFrUB4NrTBgYxvIFTwyv90QRexYTYma1UDrJew_BJpw/edit?usp=sharing' target="_blank" rel="noreferrer">
             <div className='p-4 flex flex-col text-base'>
-              <div className='py-1 px-2 bg-green-400 rounded font-medium flex items-center gap-2 w-fit mb-4'>
+              <div className='py-1 px-2 bg-green-50 rounded font-medium flex items-center gap-2 w-fit mb-4'>
                 <FontAwesomeIcon icon={faCircleInfo} />
                 <h5>
                   Use the panel at the bottom of the spreadsheet to cycle through each year's results.
@@ -42,7 +42,7 @@ export default function History() {
           </a>
         </div>
         <div className='mt-12'>
-          <p className='flex text-lg font-medium bg-yellow-300 leading-8 rounded p-2'>
+          <p className='flex text-lg font-medium bg-green-100 leading-8 rounded p-2'>
             <FontAwesomeIcon icon={faCircleInfo} className='p-2' />
             <span>
               This section is still under development. If you have any history to share, feel free to reach out. Anything from photographs to fun race stories are welcome.
