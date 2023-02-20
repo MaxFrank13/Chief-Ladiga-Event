@@ -8,7 +8,7 @@ export default function Register() {
       <Header
         currentPage='register'
       />
-      <section className='max-w-3xl mx-auto p-4 flex flex-col gap-4'>
+      <section className='max-w-4xl mx-auto p-4 flex flex-col gap-4'>
         <div>
           <h2 className='text-3xl border-b-2 inline-block'>Registration</h2>
         </div>

@@ -75,11 +75,14 @@ module.exports = {
         'hero-left': '32%',
       },
       height: {
-        'half-screen': '80vh',
+        'gal-img': '80vh',
       },
       maxWidth: {
         'half': '50%',
       },
+      maxHeight: {
+        'gal-img': '80vh',
+      }
     },
   },
   plugins: [],
