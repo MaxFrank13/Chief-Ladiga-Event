@@ -14,8 +14,8 @@ export default function AddressList() {
         After you register, you will receive an email with additional information on how to get the group rate for these hotel accommodations. You are also welcome to book your accommodations independently. For those who are interested, sharing rooms is common and encouraged. Feel free to reach out on the <a href='https://www.facebook.com/ChiefLadigaSilverCometSk8' alt='Chief Ladiga Silver Comet Sk8 Challenge Facebook page' target='_blank' rel='noreferrer' className='text-green-700 hover:text-green-500 font-bold'>Facebook page</a> or directly to the <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>
           the event organizer</a> if you need help finding others to room with.
       </p>
-      <div className='flex flex-col items-center justify-center sm:flex-row gap-2'>
-        <div className='px-4 py-2 shadow-both hover:shadow-pressed'>
+      <div className='flex flex-col items-center justify-center sm:flex-row gap-4'>
+        <div className='bg-green-100 px-4 py-2 shadow-both hover:shadow-pressed'>
           <a href='https://goo.gl/maps/4KornD73i63zVRif7' target="_blank" rel="noreferrer" >
             <h6 className='font-bold text-center'>Thursday/Sunday</h6>
             <p>
@@ -49,7 +49,7 @@ export default function AddressList() {
             </p>
           </a>
         </div>
-        <div className='px-4 py-2 shadow-both hover:shadow-pressed w-52'>
+        <div className='px-4 py-2 bg-green-100 shadow-both hover:shadow-pressed w-52'>
           <a href='https://goo.gl/maps/5dfT6UD73jiC2ZEb8' target="_blank" rel="noreferrer">
             <h6 className='font-bold text-center'>Saturday</h6>
             <p>

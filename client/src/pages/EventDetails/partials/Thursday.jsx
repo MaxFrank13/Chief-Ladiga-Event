@@ -10,7 +10,7 @@ export default function Thursday() {
           <div>
             <h3 className='text-3xl border-b-2 inline-block'>Thursday June 1st, 2023</h3>
           </div>
-          <div className='flex flex-col gap-4 sm:text-lg'>
+          <div className='flex flex-col gap-4 text-lg'>
             <p>
               When you arrive in Atlanta, GA (either by flying into Hartsfield-Jackson airport or driving) it is your responsibility to get to your hotel accommodation on Thursday night.
             </p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const FreeAccomations = () => {
   return (
-    <section className='flex flex-col gap-2 text-lg'>
+    <section className='flex flex-col gap-2 text-lg p-4'>
       <h5 className='text-2xl mb-2 underline'>Free Accommodations</h5>
       <p>
         There is an option to camp on both Friday and Saturday night.
