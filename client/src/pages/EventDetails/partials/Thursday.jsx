@@ -27,7 +27,7 @@ export default function Thursday() {
               <div className='max-w-lg shadow-inner rounded-tl rounded-tr'>
                 <p className='bg-yellow-100 p-2 rounded-tl rounded-tr'>
                   Mandatory for all riders.  If you're not arriving in Atlanta in time to attend  this meeting you must communicate to <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>
-          the event</a> BEFORE Thursday June 1st.
+          the event organizer</a> BEFORE Thursday June 1st.
                 </p>
                 <p className='flex text-lg font-bold bg-yellow-400 leading-8 rounded-bl rounded-br p-2'>
                   <FontAwesomeIcon icon={faExclamationCircle} className='p-2' color='#AB091E' />
