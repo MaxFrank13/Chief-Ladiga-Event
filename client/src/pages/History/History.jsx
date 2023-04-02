@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../../components/Header";
-import Gallery from "./partials/Gallery";
 import spreadsheetInfo from '../../assets/google_spreadsheet_001.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
@@ -42,7 +41,6 @@ export default function History() {
             </div>
           </a>
         </div>
-        <Gallery />
         <div className='mt-24'>
           <p className='flex text-lg font-medium bg-green-100 leading-8 rounded p-2'>
             <FontAwesomeIcon icon={faCircleInfo} className='p-2' />

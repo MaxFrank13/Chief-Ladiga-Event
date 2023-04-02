@@ -1,0 +1,20 @@
+{
+  "name": "chief-ladiga-event",
+  "version": "1.0.0",
+  "description": "A site for the Chief Ladiga Silver Comet Skate Challenge event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "boot": "code . && cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxFrank13/Chief-Ladiga-Event.git"
+  },
+  "author": "Maxwell Frank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxFrank13/Chief-Ladiga-Event/issues"
+  },
+  "homepage": "https://github.com/MaxFrank13/Chief-Ladiga-Event#readme"
+}
