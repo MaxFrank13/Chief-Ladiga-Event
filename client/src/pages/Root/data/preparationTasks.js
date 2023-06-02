@@ -1,7 +1,7 @@
 export const preparations = [
   {
     header: 'Make sure you have enough nutrition for each day',
-    details: 'Recommendation is 12 oz per hour or more in the heat of the South. You should also be consuming around 200 calories per hour to fuel yourself. Everyone is different. Be sure to train for this type of endurance.',
+    details: 'Recommendation is 16-32 oz of water per hour. You should also be consuming around 200 calories per hour to fuel yourself. Everyone is different. Be sure to train for this type of endurance.',
   },
   {
     header: 'Make sure you are capable of taking care of yourself on the trail',
@@ -17,6 +17,6 @@ export const preparations = [
   },
   {
     header: 'Have the proper gear for this ride',
-    details: 'At a minimum you must have a skateboard, shoes and a helmet. Knee & elbow pads as well as slide gloves/wrist guards are also recommended, especially for the sections with steep hills. G-Form products can be good here as they provide a flexibility with their padding. The minimum speed on some sections is ~20mph (32kph), but some riders could be going twice that if they\'re really cooking.',
+    details: 'At a minimum you must have a skateboard, shoes and a helmet. Knee & elbow pads as well as slide gloves/wrist guards are also recommended, especially for the sections with steep hills. G-Form products can be good here as they provide a flexibility with their padding. The minimum speed on some sections is ~20mph (32kph), but some riders could be going twice that.',
   },
 ];

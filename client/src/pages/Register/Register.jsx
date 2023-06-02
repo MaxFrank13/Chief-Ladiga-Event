@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../../components/Header';
 import datesPhoto from '../../assets/2023_Dates.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExclamationCircle } from '@fortawesome/free-solid-svg-icons';
 
 export default function Register() {
   return (
@@ -12,6 +14,17 @@ export default function Register() {
         <div>
           <h2 className='text-3xl border-b-2 inline-block'>Registration</h2>
         </div>
+        <p className='flex text-lg font-bold bg-yellow-400 leading-8 rounded p-2 m-2 mb-4'>
+          <FontAwesomeIcon icon={faExclamationCircle} className='p-2' color='#AB091E' />
+          <span>
+            Registration is closed for 2023. Thanks for the support! We'll see you all next year!
+          </span>
+        </p>
+        <div className='py-8 px-4 hidden sm:block'>
+          <img src={datesPhoto} alt='Information about time and dates for the event' className='mx-auto w-screen' />
+        </div>
+      </section>
+      {/*
         <div className='flex flex-col gap-6 sm:text-lg'>
           <p>
             For the 2023 event, registration is currently being handled through this <a className='text-green-700 hover:text-green-500 font-bold' href='https://docs.google.com/forms/d/e/1FAIpQLSfraoZDR_Whfc82iZJIY38NGRl-gR3FfzlhsHB_bgrFLLj6SA/viewform' alt='Google form for event' target="_blank" rel="noreferrer">google form</a>.
@@ -35,11 +48,7 @@ export default function Register() {
           <p>
             In the event that you have completed all of the registration steps and there are no spots left, you will be immediately put on the waiting list. For additional questions, contact <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>sk8188challenge@gmail.com</a>.
           </p>
-        </div>
-        <div className='py-8 px-4 hidden sm:block'>
-          <img src={datesPhoto} alt='Information about time and dates for the event' className='mx-auto w-screen' />
-        </div>
-      </section>
+        </div> */}
     </>
   )
 };
