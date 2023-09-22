@@ -1,3 +1,5 @@
+// TODO: make more constants - especially with addresses for pit stops
+
 const fridayTimeline = {
   thisDay: {
     number: 1,
@@ -7,7 +9,7 @@ const fridayTimeline = {
   timeline:
     [
       {
-        header: '8:00am',
+        header: '7:00am',
         subheaders: [],
         todos: [
           'Shuttle departs to Silver Comet Parking Lot',
@@ -15,14 +17,14 @@ const fridayTimeline = {
         ],
       },
       {
-        header: '9:00am',
+        header: '8:00am',
         subheaders: [],
         todos: [
           'Pre-ride meeting at 4625 Camp Highland Rd, Smyrna, GA 30082',
         ],
       },
       {
-        header: '9:45am',
+        header: '8:30am',
         subheaders: [],
         todos: [
           'Rolling start to trailhead',
@@ -31,16 +33,16 @@ const fridayTimeline = {
         ],
       },
       {
-        header: '10:00am',
+        header: '9:00am',
         subheaders: [
           {
             text: 'mile 20',
-            task: 'drinks & snacks at Tara Drummond Trailhead',
+            task: 'Tara Drummond Trailhead 588 Seaboard Ave, Dallas, GA 30157',
             mileMarker: '20.23',
           },
           {
             text: 'mile 38',
-            task: 'Finish line at Rockmart Trailhead',
+            task: 'Rockmart Trailhead 100 E Church St, Rockmart, GA 30153',
             mileMarker: '38.76'
           },
         ],
@@ -70,7 +72,7 @@ const fridayTimeline = {
         subheaders: [],
         todos: [
           'There are two lodging options in Rockmart, GA (Shuttles will be provided to both options):',
-          'Option 1: Western Inn 105 GTM Pkwy, Rockmart, GA 30153',
+          'Option 1: Shuttle back to the main hotel',
           'Option 2: Free Accommodations offered by the City of Rockmart. A large room at the community center. Showers, bathrooms, air conditioning available. Bring a sleeping bag or air mattress',
         ],
       },
@@ -86,7 +88,7 @@ const saturdayTimeline = {
   timeline:
     [
       {
-        header: '8:00am',
+        header: '7:00am',
         subheaders: [],
         todos: [
           'Shuttle departs to Rockmart Trailhead',
@@ -95,11 +97,11 @@ const saturdayTimeline = {
         ],
       },
       {
-        header: '9:00am',
+        header: '8:00am',
         subheaders: [
           {
             text: 'mile 14',
-            task: 'drinks at Cedartown Depot',
+            task: 'Cedartown Depot 609 S Main St, Cedartown, GA 30125',
             mileMarker: '52.00',
           },
           {
@@ -110,18 +112,18 @@ const saturdayTimeline = {
           },
           {
             text: 'mile 37',
-            task: 'drinks & snacks at Eubanks Welcome Center',
+            task: 'Eubanks Welcome Center 202 Dailey Street, Chief Ladiga Trail, Piedmont, AL 36272',
             mileMarker: '13.60'
           },
           {
             text: 'mile 56',
-            task: 'Finish line at Anniston Trailhead',
+            task: 'Anniston Trailhead 6514 Weaver Rd, Anniston, AL 36206',
             mileMarker: '32.5'
           },
         ],
         todos: [
           'START',
-          'at Rockmart Trailhead'
+          'Rockmart Trailhead 100 E Church St, Rockmart, GA 30153'
         ],
         mileMarker: '38.76',
       },
@@ -129,17 +131,15 @@ const saturdayTimeline = {
         header: '4:00pm CST',
         subheaders: [],
         todos: [
-          'drinks & snacks | mile marker 32.5',
+          'Anniston Trailhead',
+          'drinks & snacks',
         ],
       },
       {
         header: 'Lodging',
         subheaders: [],
         todos: [
-          'Hotel in Oxford. Again a shuttle will take you from the trail head to the hotel.',
-          'Econo Lodge 25 Elm St, Oxford, AL 36203',
-          'Other hotels are available in the area and can be purchased on your own. Just be sure to reflect this on your registration page.',
-          'Note that transportation will only be provided to and from the main hotel.',
+          'Shuttle back to the main hotel',
         ],
       },
     ],
@@ -157,7 +157,7 @@ const sundayTimeline ={
         header: '5:30am CST',
         subheaders: [],
         todos: [
-          'Shuttle departs to mile marker 32.5',
+          'Shuttle departs to 6514 Weaver Rd, Anniston, AL 36206',
           'Personal food and drinks can be shuttled to aid stations along the way',
           'Gear will be transported to Smyrna',
         ],
@@ -167,7 +167,7 @@ const sundayTimeline ={
         subheaders: [
           {
             text: 'mile 20',
-            task: 'drinks at Eubanks Welcome Center',
+            task: 'Eubanks Welcome Center 202 Dailey Street, Chief Ladiga Trail, Piedmont, AL 36272',
             mileMarker: '13.60',
           },
           {
@@ -178,28 +178,28 @@ const sundayTimeline ={
           },
           {
             text: 'mile 43',
-            task: 'drinks at Cedartown Depot',
+            task: 'Cedartown Depot 609 S Main St, Cedartown, GA 30125',
             mileMarker: '52.00',
           },
           {
             text: 'mile 56',
-            task: 'drinks & snacks at Rockmart',
+            task: 'Rockmart 100 E Church St, Rockmart, GA 30153',
             mileMarker: '38.76',
           },
           {
             text: 'mile 74',
-            task: 'drinks at Tara Drummond Trailhead',
+            task: 'Tara Drummond Trailhead 588 Seaboard Ave, Dallas, GA 30157',
             mileMarker: '20.23',
           },
           {
             text: 'mile 94',
-            task: 'Finish at Smyrna Trailhead',
+            task: 'Mavell Road Trailhead',
             mileMarker: '0',
           },
         ],
         todos: [
           'START',
-          'at mile marker 32.5 (counting down)'
+          '6514 Weaver Rd, Anniston, AL 36206'
         ],
         mileMarker: '32.5',
       },

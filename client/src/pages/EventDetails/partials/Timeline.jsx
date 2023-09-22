@@ -24,7 +24,7 @@ export default function Timeline() {
     <section className='flex flex-col gap-4 sm:text-lg'>
       <div>
         <h3 className='text-3xl sizetext-green-900 border-b-2 inline-block'>
-          Weekend June 2nd - 4th
+          Weekend
         </h3>
       </div>
       <section>
