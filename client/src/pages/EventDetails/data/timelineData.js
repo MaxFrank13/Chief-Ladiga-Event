@@ -27,7 +27,7 @@ const fridayTimeline = {
         header: '8:30am',
         subheaders: [],
         todos: [
-          'Rolling start to trailhead',
+          'Skate to trailhead',
           'Personal food and drinks can be shuttled to aid stations along the way',
           'Gear will be transported to Rockmart Trailhead',
         ],
@@ -72,8 +72,8 @@ const fridayTimeline = {
         subheaders: [],
         todos: [
           'There are two lodging options in Rockmart, GA (Shuttles will be provided to both options):',
-          'Option 1: Shuttle back to the main hotel',
-          'Option 2: Free Accommodations offered by the City of Rockmart. A large room at the community center. Showers, bathrooms, air conditioning available. Bring a sleeping bag or air mattress',
+          'Option 1: Hotel',
+          'Option 2: Free Accommodations offered by the City of Rockmart. A large room at the gym. Showers, bathrooms, air conditioning available. Bring a sleeping bag or air mattress',
         ],
       },
     ],
@@ -107,7 +107,7 @@ const saturdayTimeline = {
           {
             text: 'mile 24',
             task: 'Cross into Alabama at mile marker 62. Timezone change to Central Standard Time (CST, 1 hour BEHIND) and the mile markers will reset to 0',
-            note: 'CAUTION: this is NOT a pitstop. This is actually the most remote section of the trail. Be safe!',
+            note: 'CAUTION: state line is NOT a pitstop. This is actually the most remote section of the trail. Be safe!',
             mileMarker: '62.00 | 0',
           },
           {
@@ -139,7 +139,8 @@ const saturdayTimeline = {
         header: 'Lodging',
         subheaders: [],
         todos: [
-          'Shuttle back to the main hotel',
+          'Option 1: Hotel',
+          'Option 2: Camping at the Chief Ladiga Aquatic Center. The rate is 2 cars & 2 tents for $25/night. You\'ll need to reserve a site by reaching out to the Aquatic Center directly at (256)-847-7349.'
         ],
       },
     ],
@@ -173,7 +174,7 @@ const sundayTimeline ={
           {
             text: 'mile 33',
             task: 'Cross into Georgia. Timezone change to Eastern Standard Time (EST, 1 hour AHEAD) and the mile markers will count down from 62.',
-            note: 'CAUTION: this is NOT a pitstop. This is actually the most remote section of the trail. Be safe!',
+            note: 'CAUTION: state line is NOT a pitstop. This is actually the most remote section of the trail. Be safe!',
             mileMarker: '0 | 62.00'
           },
           {

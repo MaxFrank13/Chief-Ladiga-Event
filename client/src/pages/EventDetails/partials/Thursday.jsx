@@ -26,13 +26,13 @@ export default function Thursday() {
             <section className='flex flex-col items-center gap-4 text-center'>
               <div className='max-w-lg shadow-inner rounded-tl rounded-tr'>
                 <p className='bg-yellow-100 p-2 rounded-tl rounded-tr'>
-                  If you're not arriving in Atlanta in time to check in, you must communicate this to <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>
+                  There is a check-in window from 3-9pm at the hotel. If you're not arriving in Atlanta in time for the check-in window, you must communicate this to <a className='text-green-700 hover:text-green-500 font-bold' href='mailto:sk8188challenge@gmail.com'>
           the event organizer</a> BEFORE Thursday.
                 </p>
                 <p className='flex text-lg font-bold bg-yellow-400 leading-8 rounded-bl rounded-br p-2'>
                   <FontAwesomeIcon icon={faExclamationCircle} className='p-2' color='#AB091E' />
                   <span>
-                    3-9pm | Check-in meeting @ LaQuinta Inn & Suites
+                    3-9pm | Check-in window @ LaQuinta Inn & Suites
                   </span>
                 </p>
               </div>
